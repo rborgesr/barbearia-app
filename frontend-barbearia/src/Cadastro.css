@@ -1,0 +1,135 @@
+.cadastro-container {
+  display: flex;
+  height: 100vh;
+  color: white;
+  background-color: #000;
+}
+
+.cadastro-left {
+  flex: 1;
+  background: url('/') center/cover no-repeat; /* Substitua pela imagem real */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.cadastro-left h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cadastro-left p {
+  font-size: 16px;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.cadastro-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro-form {
+  width: 80%;
+  max-width: 400px;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cadastro-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+.cadastro-form input::placeholder {
+  color: #aaa;
+}
+
+.cadastro-row {
+  display: flex;
+  gap: 10px;
+}
+
+.cadastro-form button {
+  background-color: #e50914;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.cadastro-form button:hover {
+  background-color: #b00710;
+}
+
+.mensagem {
+  background-color: #222;
+  color: #f44;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Seção da esquerda */
+.cadastro-left {
+  flex: 1;
+  background: url('') center/cover no-repeat; /* Altere a imagem se necessário */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+  background-color: #0a0a0a; /* Fallback se imagem não carregar */
+}
+
+.cadastro-left h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cadastro-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 420px;
+  color: #ddd;
+}
+
+.voltar-home-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: transparent;
+  color: #ff3c3c;
+  border: 2px solid #ff3c3c;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 10;
+}
+
+.voltar-home-btn:hover {
+  background-color: #ff3c3c;
+  color: white;
+}

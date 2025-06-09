@@ -1,0 +1,83 @@
+/* Centraliza perfeitamente o conteúdo */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  padding: 16px; /* garante margem em telas pequenas */
+}
+
+/* Caixa do formulário */
+.login-form {
+  background-color: #000;
+  border: 2px solid #f1384c;
+  border-radius: 12px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(241, 56, 76, 0.3);
+}
+
+/* Título */
+.login-form h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #111;
+  color: #fff;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.login-form input::placeholder {
+  color: #555;
+}
+
+/* Botão */
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #f1384c;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-form button:hover {
+  background-color: #d22c3a;
+}
+
+.voltar-home-btn {
+  background-color: transparent;
+  color: #e11d48;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  align-self: flex-start;
+  transition: color 0.3s;
+}
+
+.voltar-home-btn:hover {
+  color: #fff;
+}
